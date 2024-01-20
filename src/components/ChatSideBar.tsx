@@ -14,7 +14,7 @@ type Props = {
     isPro: boolean
 }
 
-const chatSideBar = ({ chats, chatId, isPro }: Props) => {
+const ChatSideBar = ({ chats, chatId, isPro }: Props) => {
     const [loading, setLoading] = React.useState(false);
 
     return (
@@ -59,4 +59,4 @@ const chatSideBar = ({ chats, chatId, isPro }: Props) => {
     )
 }
 
-export default chatSideBar;
+export default ChatSideBar;
